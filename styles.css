@@ -1,0 +1,53 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+  }
+  .new{
+
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 1200px;
+  }
+  .villain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .new div {
+   
+    margin: 10px;
+
+  }
+  .score {
+    padding: 10px;
+    font-size: 40px;
+  }
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .hero1,
+  .villain1 {
+    border: 2px solid gray;
+    
+    padding: 10px;
+  }
+
+.villain1 h2 {
+    margin: 2px;
+    font-size: 30px;    
+  } 
+  .hero img,
+  .villain img {
+    width: 100px;
+  }
+  
+
+
+  .hero2,
+  .villain2{
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+  }
